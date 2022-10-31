@@ -28,7 +28,7 @@ CONFORMIDADE > CONFIABILIDADE > RASTREABILIDADE > VELOCIDADE
 
 ### Diagrama técnico
 
-Desenho
+![Diagram](https://raw.githubusercontent.com/DiegoRs100/architecture-cases/main/src/01%20-%20chargeback_case_diagram.bmp)
 
 ### Aplicações
 
