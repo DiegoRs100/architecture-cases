@@ -40,7 +40,7 @@ Uma api REST responsável por receber individualmente as solicitações de charg
 
 O obejtivo desse worker é calcular por algoritimos qual o melhor momento do dia para realizar o envio de uma batch e qual o intervalo para o próximo envio, de forma a garantir sempre 4 envios por dia.
 Uma vez que ele entenda que um batch deve ser enviado, é reponsável por buscar no banco de leitura todos os registros disponíveis para envio e gerar um arquivo batch no servidor FTP do banco contendo esses registros.
-Por fim, ao criar um batch de chargeback, deve dispara eventos informando que os dados estão aguardando processamento.
+Por fim, ao criar um batch de chargeback, deve disparar eventos informando que os dados estão aguardando processamento.
 
 **chrageback-batch-sender**
 
